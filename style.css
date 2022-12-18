@@ -733,4 +733,22 @@ SHAPES
     .modal__half{
         padding: 40px;
     }
+    .project:hover .project__img{
+        transform: scale(1.07);
+        filter: blur(5px);
+    }
+    .project:hover .project__description--title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .project:hover .project__description--sub-title{
+        align-items: center;
+        font-size: 9px;
+    }
+    .project:hover .project__description--links{
+        align-items: center;
+        font-size: 14px;
+    }
 }
